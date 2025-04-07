@@ -184,6 +184,8 @@ li{
 
 video {
   max-width: 100%;
+  height: 10%;
+  width: 10%;
   margin-bottom: 20px;
 }
 
@@ -236,6 +238,7 @@ footer #submit:hover {
 
 form {
   margin-top: 20px;
+  text-align: center;
 }
 
 /* Media Queries for responsiveness */
@@ -517,6 +520,7 @@ footer #submit:hover {
 
 form {
   margin-top: 20px;
+  text-align: center;
 }
 
 /* Media Queries for responsiveness */
