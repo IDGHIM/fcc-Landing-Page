@@ -236,7 +236,7 @@ footer #submit:hover {
   background-color: #9c020277;
 }
 
-form {
+form, a {
   margin-top: 20px;
   text-align: center;
 }
@@ -518,7 +518,7 @@ footer #submit:hover {
   background-color: #9c020277;
 }
 
-form {
+form, a {
   margin-top: 20px;
   text-align: center;
 }
