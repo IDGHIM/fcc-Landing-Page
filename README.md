@@ -1,4 +1,4 @@
-# :notebook: fcc-Technical-Documentation
+# :notebook: fcc-Landing-Page
 Website : https://idghim.github.io/fcc-Landing-Page
 
 *On the site some instructions have been changed to make a result that I personnally liked*
