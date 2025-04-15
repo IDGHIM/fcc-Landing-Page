@@ -1,11 +1,11 @@
 # :notebook: fcc-Landing-Page
-Website : https://idghim.github.io/fcc-Landing-Page
+Website : [https://idghim.github.io/fcc-Landing-Page](https://idghim.github.io/fcc-Landing-Page)
 
-*On the site some instructions have been changed to make a result that I personnally liked*
+On this site, I made some modifications to the instructions in order to achieve a result that I personally liked and that fits my style.
 ## :dart: Objectifs
 For this project, you will build a product landing page to market a product of your choice
 
-*Similar to [Landing Page]([https://product-landing-page.freecodecamp.rocks/]) (do not copy this demo project).*
+*Similar to [Landing Page](https://product-landing-page.freecodecamp.rocks/) (do not copy this demo project).*
 
 ## :pushpin: Instructions
    - [x] Your product landing page should have a header element with a corresponding id="header"
