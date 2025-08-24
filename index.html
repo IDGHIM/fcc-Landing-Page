@@ -2,8 +2,12 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8" />
-            <title id="title">STUDPROD</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title id="title">STUDPROD - Photographie Sportive</title>
         <link rel="stylesheet" href="styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
         <link rel="shortcut icon" href="favicon/favicon.ico" />
@@ -12,120 +16,272 @@
     </head>
     <body>
         <header id="header">
-        <nav id="navbar">
-            <div class="logo">
-                <img id="header-img" src="LOGO STUDPROD NOIR.png" alt="original trombones logo"/>
-            </div>
-            <h1>STUDPROD</h1>
-            <li><a class="nav-link" href="#Contact">Présentation & Contact</a></li>
-          <div class="dropdown">
-            <li><a class="nav-link" href="#Shoot">Shooting effectué</a></li>
-          <div class="dropdown-child">
-                <a href="#picture">Photos</a>
-          </div>
-          </div>
-          <div class="dropdown">
-            <li><a class="nav-link" href="#Tarif">Prestation</a></li>
-            <div class="dropdown-child">
-              <a href="#first">Premier Pack</a>
-              <a href="#second">Deuxième Pack</a>
-              <a href="#third">Troisième Pack</a>
-              <a href="#fourth">Quatrième Pack</a>
-            </div>
-            </div>
-            <li><a class="nav-link" href="#Form_Contact">Formulaire de contact</a></li>
-        </nav>
+            <nav id="navbar">
+                <div class="logo">
+                    <img id="header-img" src="LOGO STUDPROD NOIR.png" alt="Logo STUDPROD"/>
+                    <h1>STUDPROD</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="#Contact">Présentation & Contact</a></li>
+                    <li class="dropdown">
+                        <a class="nav-link" href="#Shoot">Shooting effectué</a>
+                        <div class="dropdown-child">
+                            <a href="#picture">Photos</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link" href="#Tarif">Prestation</a>
+                        <div class="dropdown-child">
+                            <a href="#first">Premier Pack</a>
+                            <a href="#second">Deuxième Pack</a>
+                            <a href="#third">Troisième Pack</a>
+                            <a href="#fourth">Quatrième Pack</a>
+                        </div>
+                    </li>
+                    <li><a class="nav-link" href="#Form_Contact">Formulaire de contact</a></li>
+                </ul>
+            </nav>
         </header>
+
         <section id="hero">
-        
+            <div class="hero-content">
+                <h1 class="hero-title">Photographie Sportive</h1>
+                <p class="hero-subtitle">Capturez l'intensité de vos performances</p>
+                <a href="#Contact" class="hero-btn">Découvrir mes services</a>
+            </div>
         </section>
-    <main id="main-doc">
-    <section class="main-section" id="Contact">
-        <h2>Présentation & Contact</h2>
-            <p>J'ai 20 ans, j'ai grandi dans la ville de Grenbole. Actuellement étudiante, je poursuis une double licence en Droit et Philosophie en deuxième année (L2).</p>
-            <p>J'ai commencé la photographie en capturant des moments familiaux tels que des mariages et des baptêmes. Ces premières photos étaient souvent prises dans un cadre familial, avec une attention particulière portée aux émotions et à l'ambiance.</p>
-            <p>La photographie me permet de combiner ma passion pour le sport, l'art et l'émotion humaine. Même si ce n’est pas ma profession, c’est un hobby qui occupe une place importante dans ma vie.</p>
-            <form id="form" target="_blank" action="https://www.instagram.com/studyli_fts?igsh=MXVybTl3eWJ3aXhhcw==">
-                <input id="submit" type="submit" value="Instagram" class="button-group" />
-            </form>
-            <a href="mailto:studyli3@gmail.com">
-                <input id="submit" type="submit" value="Adresse mail" class="button-group" />
-            </a>
-    </section>
-    <section class="main-section" id="Shoot">
-        <h2>Shooting effectué</h2>
-            <p>Avec le temps, ma passion pour la photographie m’a conduite dans les centres équestres. J'ai adoré capturer l'intensité et la beauté des chevaux et de leurs cavaliers.</p>
-            <p>Actuellement, je me spécialise dans la photographie sportive, en particulier la photographie de powerlifting.</p>
-            <p> Cette discipline m'a toujours fasciné par la force et la détermination des athlètes. C'est un sport intense et plein d'émotions, ce qui me permet de capturer des moments très forts.</p>
-        <h2 id="picture">Photos</h2>
-            <div class="wrapper">
-                <img src="pict-vid/P1011411.RW2.jpg" alt="podium" loading="lazy">
-                <img src="pict-vid/P1011935.png" alt="man focus before squat" loading="lazy">
-                <img src="pict-vid/P1000407.png" alt="man lift squat" loading="lazy">
-                <img src="pict-vid/P1001067.png" alt="women lift deadlift" loading="lazy">
-                <img src="pict-vid/P1011297.png" alt="man lift deadlift" loading="lazy">
-                <img src="pict-vid/P1011764.png" alt="women athlete stretching" loading="lazy">
+
+        <main id="main-doc">
+            <section class="main-section" id="Contact">
+                <h2>Présentation & Contact</h2>
+                <div class="presentation-content">
+                    <p>J'ai 20 ans, j'ai grandi dans la ville de Grenoble. Actuellement étudiante, je poursuis une double licence en Droit et Philosophie en deuxième année (L2).</p>
+                    <p>J'ai commencé la photographie en capturant des moments familiaux tels que des mariages et des baptêmes. Ces premières photos étaient souvent prises dans un cadre familial, avec une attention particulière portée aux émotions et à l'ambiance.</p>
+                    <p>La photographie me permet de combiner ma passion pour le sport, l'art et l'émotion humaine. Même si ce n'est pas ma profession, c'est un hobby qui occupe une place importante dans ma vie.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="https://www.instagram.com/studyli_fts?igsh=MXVybTl3eWJ3aXhhcw==" target="_blank" class="button-group">
+                        📸 Instagram
+                    </a>
+                    <a href="mailto:studyli3@gmail.com" class="button-group">
+                        ✉️ Adresse mail
+                    </a>
+                </div>
+            </section>
+
+            <section class="main-section" id="Shoot">
+                <h2>Shooting effectué</h2>
+                <div class="shooting-content">
+                    <p>Avec le temps, ma passion pour la photographie m'a conduite dans les centres équestres. J'ai adoré capturer l'intensité et la beauté des chevaux et de leurs cavaliers.</p>
+                    <p>Actuellement, je me spécialise dans la photographie sportive, en particulier la photographie de powerlifting.</p>
+                    <p>Cette discipline m'a toujours fasciné par la force et la détermination des athlètes. C'est un sport intense et plein d'émotions, ce qui me permet de capturer des moments très forts.</p>
+                </div>
+
+                <h3 id="picture">📷 Photos</h3>
+                <div class="wrapper">
+                    <img src="pict-vid/P1011411.RW2.jpg" alt="Podium de compétition powerlifting" loading="lazy">
+                    <img src="pict-vid/P1011935.png" alt="Athlète se concentrant avant un squat" loading="lazy">
+                    <img src="pict-vid/P1000407.png" alt="Homme effectuant un squat" loading="lazy">
+                    <img src="pict-vid/P1001067.png" alt="Femme effectuant un soulevé de terre" loading="lazy">
+                    <img src="pict-vid/P1011297.png" alt="Homme effectuant un soulevé de terre" loading="lazy">
+                    <img src="pict-vid/P1011764.png" alt="Athlète féminine s'étirant" loading="lazy">
+                </div>
+            </section>
+
+            <section class="main-section" id="Tarif">
+                <h2>Prestation</h2>
+                <div class="pricing-grid">
+                    <div class="product" id="first">
+                        <div class="level">Premier pack</div>
+                        <h3>70€</h3>
+                        <ul class="features">
+                            <li>Vidéo recap émotion</li>
+                            <li>Durée : 2-3 minutes</li>
+                            <li>Montage professionnel</li>
+                            <li>Musique incluse</li>
+                        </ul>
+                        <button class="btn" onclick="scrollToContact()">Je prends !</button>
+                    </div>
+
+                    <div class="product" id="second">
+                        <div class="level">Deuxième pack</div>
+                        <h3>80€</h3>
+                        <ul class="features">
+                            <li>Pack de 10 photos</li>
+                            <li>Retouche incluse</li>
+                            <li>Haute résolution</li>
+                            <li>Format numérique</li>
+                        </ul>
+                        <button class="btn" onclick="scrollToContact()">Je prends !</button>
+                    </div>
+
+                    <div class="product" id="third">
+                        <div class="level">Troisième pack</div>
+                        <h3>90€</h3>
+                        <ul class="features">
+                            <li>Vidéo longue</li>
+                            <li>Durée : 5-8 minutes</li>
+                            <li>Analyses techniques</li>
+                            <li>Slow motion inclus</li>
+                        </ul>
+                        <button class="btn" onclick="scrollToContact()">Je prends !</button>
+                    </div>
+
+                    <div class="product" id="fourth">
+                        <div class="level">Quatrième pack</div>
+                        <h3>130€</h3>
+                        <ul class="features">
+                            <li>Pack vidéo + photo</li>
+                            <li>Formule complète</li>
+                            <li>Meilleur rapport qualité/prix</li>
+                            <li>Support prioritaire</li>
+                        </ul>
+                        <button class="btn popular" onclick="scrollToContact()">Je prends !</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="Form_Contact">
+            <div class="footer-content">
+                <h2>💬 Formulaire de contact</h2>
+                <form class="contact-form" action="#" method="POST" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label for="lastName">Nom *</label>
+                        <input id="lastName" name="lastName" type="text" placeholder="Entrez votre nom" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName">Prénom *</label>
+                        <input id="firstName" name="firstName" type="text" placeholder="Entrez votre prénom" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input id="email" name="email" type="email" placeholder="votre.email@exemple.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service souhaité</label>
+                        <select id="service" name="service">
+                            <option value="">Sélectionnez un pack</option>
+                            <option value="pack1">Premier pack - 70€</option>
+                            <option value="pack2">Deuxième pack - 80€</option>
+                            <option value="pack3">Troisième pack - 90€</option>
+                            <option value="pack4">Quatrième pack - 130€</option>
+                            <option value="custom">Service personnalisé</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet, la date souhaitée, le lieu..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">📤 Envoyer ma demande</button>
+                </form>
             </div>
-    </section>
-    <section id="Tarif">
-        <h2>Prestation</h2>
-            <div class="product" id="first">
-            <div class="level">Premier pack</div>
-        <h3>70€</h3>
-            <ol>
-                <li>Vidéo recap émotion</li>
-            </ol>
-            <button class="btn">Je prends !</button>
-    </div>
-    <div class="product" id="second">
-    <div class="level">Deuxième pack</div>
-        <h3>80€</h3>
-            <ol>
-                <li>Pack de 10 photos</li>
-            </ol>
-            <button class="btn">Je prends !</button>
-    </div>
-    <div class="product" id="third">
-    <div class="level">Troisième pack</div>
-        <h3>90€</h3>
-            <ol>
-                <li>Vidéo longue</li>
-            </ol>
-            <button class="btn">Je prends !</button>
-    </div>
-    <div class="product" id="four">
-    <div class="level">Quatrième pack</div>
-        <h3>130€</h3>
-            <ol>
-                <li>Pack vidéo + photo</li>
-            </ol>
-            <button class="btn">Je prends !</button>
-        </div>
-    </section>
-    <footer>
-        <ul>
-            <h2 class="Form_Contact">Formulaire de contact</h2>
-            <div>
-                <label id="name-label" for="name">Nom
-                    <input id="name" name="name" type="text" placeholder="Entrer votre nom" required />
-                </label>
-            </div>
-            <div>
-                <label id="name-label" for="name">Prénom
-                    <input id="name" name="name" type="text" placeholder="Entrer votre prénom" required />
-                </label>
-            </div>
-            <div>
-                <label id="email-label" for="email">Email                            
-                    <input id="email" name="email" type="email" placeholder="Entrer votre email" required />        
-                </label>
-            </div>
-            <form id="form" target="_blank" action="">
-                <input id="submit" type="submit" value="Envoyer" class="btn" />
-            </form>
-        </ul>
-    </footer>
-    </div>
-    </div>
-  </body>
+        </footer>
+
+        <script>
+            // Animation au scroll
+            const observeElements = () => {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                        }
+                    });
+                }, {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                });
+
+                document.querySelectorAll('.main-section').forEach(section => {
+                    observer.observe(section);
+                });
+            };
+
+            // Scroll smooth vers le formulaire
+            const scrollToContact = () => {
+                document.getElementById('Form_Contact').scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            };
+
+            // Gestion du formulaire
+            const handleSubmit = (event) => {
+                event.preventDefault();
+                
+                const formData = new FormData(event.target);
+                const data = Object.fromEntries(formData);
+                
+                // Construction de l'email
+                const subject = `Demande STUDPROD - ${data.service || 'Service personnalisé'}`;
+                const body = `Bonjour,
+
+Je souhaite faire appel à vos services de photographie sportive.
+
+Informations :
+- Nom : ${data.lastName}
+- Prénom : ${data.firstName}
+- Email : ${data.email}
+- Service souhaité : ${data.service || 'Service personnalisé'}
+
+Message :
+${data.message}
+
+Cordialement,
+${data.firstName} ${data.lastName}`;
+
+                // Ouverture du client mail
+                const mailtoLink = `mailto:studyli3@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                window.location.href = mailtoLink;
+                
+                // Message de confirmation
+                alert('Votre client mail va s\'ouvrir avec votre demande pré-remplie. Vous pouvez modifier le message avant de l\'envoyer.');
+            };
+
+            // Smooth scroll pour tous les liens d'ancrage
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Initialisation au chargement
+            document.addEventListener('DOMContentLoaded', () => {
+                observeElements();
+                
+                // Animation du header au scroll
+                let lastScroll = 0;
+                window.addEventListener('scroll', () => {
+                    const currentScroll = window.pageYOffset;
+                    const header = document.getElementById('header');
+                    
+                    if (currentScroll <= 0) {
+                        header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+                    } else {
+                        header.style.boxShadow = '0 2px 30px rgba(0, 0, 0, 0.2)';
+                    }
+                    
+                    lastScroll = currentScroll;
+                });
+            });
+
+            // Préchargement des images au hover
+            document.querySelectorAll('.wrapper img').forEach(img => {
+                img.addEventListener('mouseenter', function() {
+                    this.style.filter = 'brightness(1.1)';
+                });
+                
+                img.addEventListener('mouseleave', function() {
+                    this.style.filter = 'brightness(1)';
+                });
+            });
+        </script>
+    </body>
 </html>
